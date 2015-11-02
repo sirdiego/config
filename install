@@ -1,0 +1,4 @@
+#!/bin/sh
+CONFIG_PATH=$(pwd)
+test -f ~/.zshrc || ln -s $CONFIG_PATH/zshrc ~/.zshrc
+test -f ~/.Xresources || ln -s $CONFIG_PATH/Xresources ~/.Xresources
